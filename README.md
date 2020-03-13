@@ -21,7 +21,7 @@ Java studying
 сам класс и содержит инструкции по запуску приложения.
 
 
-# Задание 2
+## Задание 2
 
 Дан массив целых чисел. Необходимо реализовать метод, который возвращает индексы массива, значения которых в сумме дают число переданное в массив.
 
@@ -34,7 +34,7 @@ result = [1,2]
 Т.е. индексы 1 и 2 (значение 8 и 15) в сумме дают искомое число 23
 
 
-# Задание 3
+## Задание 3
 
 Дан массив целых чисел.
 Необходимо реализовать метод, которые определяет, содержит ли данный массив дубликаты
@@ -50,7 +50,7 @@ Result: false
 
 
 ##   Task 1 
-consists of two Classes MyCollection and Task_1.
+consists of two Classes **MyCollection and Task_1.
 
 The main class Task_1 implements creation of collection (ArrayList) and all manipulations with it as:
 1 - adding items to the collection;
