@@ -17,6 +17,7 @@ public class Task_3 {
                     System.out.println("Result: true");
                 System.out.println("Число " + i + " повторяется " + count + " раза");
             }
+
             n = i;
         }
         if (result < 1)
