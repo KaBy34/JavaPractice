@@ -16,12 +16,11 @@ class MyCollection extends ArrayList<Integer>{
         }
         return super.add(value);
     }
-
-    public boolean rem(Integer value) {
+    public void remove(Integer value) {
         for (int j = 0; j < size(); j++) {
             set(j, get(j) - value);
         }
-        return super.remove(value);
+        super.remove(value);
     }
 
     public double getAverage(){
@@ -35,7 +34,6 @@ class MyCollection extends ArrayList<Integer>{
 
     public static int scan() {
         Scanner in = new Scanner(System.in);
-        int x = in.nextInt();
-        return x;
+        return in.nextInt();
     }
 }

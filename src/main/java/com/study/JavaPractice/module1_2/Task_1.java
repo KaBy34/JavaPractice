@@ -9,9 +9,13 @@ public class Task_1 {
 
         System.out.print("Введите размер изначальной коллекции целых чисел, " +
                 "а затем и сами целые числа: ");
-        int count = MyCollection.scan();
-        for (int i = 0; i < count; i++)
-            myColl.add(i, MyCollection.scan());
+        try {
+            int count = MyCollection.scan();
+            for (int i = 0; i < count; i++)
+                myColl.add(i, MyCollection.scan());
+        } catch (NullPointerException e){
+            System.out.println("null - недопустимое значение!!!");
+        }
 
         System.out.println("Полученная коллекция целых чисел: \n" + myColl);
         System.out.println();
@@ -44,7 +48,6 @@ public class Task_1 {
                     System.out.print("Введите индекс удаляемого эл-нта: ");
                     int b = MyCollection.scan();
                     myColl.remove(b);
-                    myColl.rem(b);
                     break;
                 case 3:
                     System.out.print("Найти эл-нт по значению: ");
