@@ -53,9 +53,9 @@ Result: false
 consists of two Classes **MyCollection** and **Task_1**.
 
 The main class Task_1 implements creation of collection (ArrayList) and all manipulations with it as:
-1 - adding items to the collection;
-2 - removing items from the collection;
-3 - finding items by value;
++ 1 - adding items to the collection;
++ 2 - removing items from the collection;
++ 3 - finding items by value;
 4 - finding items by index;
 5 - search for the maximum element;
 6 - search for the minimum element;
