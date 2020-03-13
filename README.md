@@ -52,7 +52,7 @@ Result: false
 Дубликатов нет
 
 
-##   Task 1 
+##   Task_1 
 consists of two Classes **MyCollection** and **Task_1**.
 
 The main class Task_1 implements creation of collection (ArrayList) and all manipulations with it as:
@@ -68,3 +68,37 @@ When adding / removing an item, an increase or decrease, respectively,
 of all elements of the collection by the specified value is performed.
 
 Class MyCollection consists of methods and overrided methods used in the main class Task_1.
+
+
+##   Task_2
+An array of integers is given. You need to implement a method that returns the indices of an array.
+
+It is assumed that the array contains only unique numbers and always contains the desired numbers.
+The same item cannot be used twice.
+
+Example:
+
+array = [3, 8, 15, 17], Number = 23
+result = [1,2]
+
+Indexes 1 and 2 (values 8 and 15) in total give the desired number 23.
+
+**Realization:**
+The main class Task_2 initializes an integer Collection and has a method that solves a task.
+
+
+##   Task_3
+An array of integers is given.
+You must implement a method that determines whether a given array contains duplicates
+
+Example:
+Array: [4,5,6,6,8]
+Result: true
+The number 6 is repeated 2 times
+
+Array: [4,5,6,7,8]
+Result: false
+No duplicates
+
+**Realization:**
+The main class Task_3 initializes an integer collection and has a method that solves the problem - finding duplicates.
