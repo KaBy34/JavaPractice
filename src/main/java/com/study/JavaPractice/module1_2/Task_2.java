@@ -18,6 +18,7 @@ public class Task_2 {
             myHashSet.add(in.nextInt());
 
         System.out.println("Полученная коллекция целых уникальных чисел: \n" + "array =" + myHashSet);
+
         Integer[] array = myHashSet.toArray(new Integer[myHashSet.size()]);
 
         System.out.print("Введите искомое число: \n" + "Number = ");
