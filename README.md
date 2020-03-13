@@ -50,7 +50,7 @@ Result: false
 
 
 ##   Task 1 
-consists of two Classes **MyCollection and Task_1.
+consists of two Classes **MyCollection** and **Task_1**.
 
 The main class Task_1 implements creation of collection (ArrayList) and all manipulations with it as:
 1 - adding items to the collection;
