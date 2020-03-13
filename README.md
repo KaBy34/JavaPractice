@@ -55,11 +55,11 @@ consists of two Classes **MyCollection** and **Task_1**.
 The main class Task_1 implements creation of collection (ArrayList) and all manipulations with it as:
 + 1 - adding items to the collection;
 + 2 - removing items from the collection;
-+ 3 - finding items by value;
+- 3 - finding items by value;
 - 4 - finding items by index;
-- 5 - search for the maximum element;
-6 - search for the minimum element;
-7 - calculating the average of a collection of numbers.
++ 5 - search for the maximum element;
++ 6 - search for the minimum element;
+- 7 - calculating the average of a collection of numbers.
 
 When adding / removing an item, an increase or decrease, respectively, 
 of all elements of the collection by the specified value is performed.
